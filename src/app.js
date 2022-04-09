@@ -28,6 +28,6 @@ function js_thml(){
 }
 
 
-document.getElementById("js_html").innerText = js_thml();
+document.getElementById("js_html").innerHTML = js_thml();
 document.getElementById("html-text").value = js_thml();
  
