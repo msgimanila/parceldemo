@@ -13,3 +13,6 @@ document.getElementById("demo").innerHTML = person.fullName();
 let info="eographical <h1>divisions</h1> from north to south: <a href="#">Luzon, Visayas, and Mindanao</a> <button></button>";
 
 document.getElementById("demo").innerHTML = info;
+
+document.writeln('</button></button>');
+
