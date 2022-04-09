@@ -10,6 +10,6 @@ const person = {
 
 // Display data from the object:
 document.getElementById("demo").innerHTML = person.fullName();
-info="eographical divisions from north to south: Luzon, Visayas, and Mindanao";
+let info="eographical divisions from north to south: Luzon, Visayas, and Mindanao <button</button>";
 
 document.getElementById("demo").innerHTML = info;
