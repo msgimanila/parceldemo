@@ -14,5 +14,20 @@ let info="eographical <h1>divisions</h1> from north to south: <a href="#">Luzon,
 
 document.getElementById("demo").innerHTML = info;
 
-document.writeln('</button></button>');
+ 
+function js_thml(){
+	let code = "";
+	code += '<h1>HTML To JavaScript</h1>\n';
+	code += '<ol>\n';
+	code += '\t<li>First item</li>\n';
+	code += '\t<li>Second item</li>\n';
+	code += '\t<li>Third item</li>\n';
+	code += '\t<li>Fourth item</li>\n';
+	code += '</ol>\n';
+	return code;
+}
 
+
+document.getElementById("js_html").innerText = js_thml();
+document.getElementById("html-text").value = js_thml();
+ 
