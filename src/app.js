@@ -1,4 +1,10 @@
+import getTheAnswer from './modules/module2.js';
 
+var name = 'Radagast';
+
+console.log(answer);
+
+alert('The answer is ' + getTheAnswer());
 
 
 // Create an object:
