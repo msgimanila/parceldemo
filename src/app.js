@@ -1,4 +1,7 @@
-import ('style.js');
+<script type="module">
+  import { styleMyCSS } from './style.js';
+  document.body.innerHTML = styleMyCSS();
+</script>
 // Create an object:
 const person = {
   firstName: "John",
