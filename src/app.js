@@ -1,3 +1,5 @@
+import styles from "styles.js";
+
 // Create an object:
 const person = {
   firstName: "John",
