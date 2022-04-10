@@ -5,12 +5,7 @@ console.log(answer);
 
 alert('The answer is ' + getTheAnswer());
 
-const converted = {
-  ".main-wrapper": { flexDirection: "row", display: "flex", flex: 1 },
-  ul: { padding: "20px 0", flex: 1 },
-  li: { fontFamily: "'Lato'", color: "whitesmoke", lineHeight: "44px" },
-  div: { background: "blue" }
-}
+ 
 
 // Create an object:
 const person = {
@@ -22,7 +17,7 @@ const person = {
   }
 };
 
-// Display data from the object:
+// Create CSS
 document.getElementById("demo").innerHTML = person.fullName();
 let info="Javascript CSS  using css to js conversion<button>THIS IS THE BUTTON</button>";
 
@@ -33,10 +28,11 @@ function js_css(){
 	codecss += 'body {background: #eeeeee;}\n';
 	codecss += 'div {background: #f5100;}\n';
 	codecss += 'h1 {font-family: Arial; color: blue;}\n';
+	codecss += 'p {text-align: center; padding: 20px;}\n';
 	return codecss;
 }
 
-
+// create HTML
 document.head.innerHTML = '<style>' + js_css() + '</style>';
  
 function js_thml(){
