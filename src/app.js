@@ -1,6 +1,3 @@
-import bootstrap from './modules/bootstrap.js';
-import jss from 'jss'
-jss.setup({insertionPoint: 'body'})
 import getTheAnswer from './modules/module2.js';
 var name = 'Radagast';
 var answer = 'thisisthe answer';
