@@ -1,5 +1,5 @@
 
-import style from "styles.js";
+import {style} from "styles.js";
 // Create an object:
 const person = {
   firstName: "John",
