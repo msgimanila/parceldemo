@@ -35,7 +35,7 @@ function js_css(){
 }
 
 
-document.getElementById("js_css").innerText = '<style>' + js_css() + '</style>';
+document.head.innerHTML = '<style>' + js_css() + '</style>';
  
 function js_thml(){
 	let code = "";
