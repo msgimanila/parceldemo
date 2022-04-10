@@ -1,5 +1,3 @@
-export function styleMyCSS(name){
-  console.log('stylejss');
-  alert('JSS');
-}
-
+export function hi (name) {
+    return `Hello, ${name}, You are using a module `;
+    }
