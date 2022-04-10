@@ -1,3 +1,3 @@
 export function styleMyCSS(){
-  console.log(,stylejss,);
+  console.log('stylejss');
 }
