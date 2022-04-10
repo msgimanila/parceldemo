@@ -1,5 +1,5 @@
-export function styleMyCSS(){
+export function styleMyCSS(name){
   console.log('stylejss');
   alert('JSS');
 }
-styleMyCSS();
+
