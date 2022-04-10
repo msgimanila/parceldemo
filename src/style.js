@@ -1,3 +1,3 @@
-export function style(){
+export function styleMyCSS(){
   console.log(,stylejss,);
 }
