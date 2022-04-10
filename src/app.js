@@ -30,7 +30,9 @@ document.getElementById("demo").innerHTML = info;
 //https://www.html-code-generator.com/html/html-code-convert-to-javascript
 function js_css(){
 	let codecss = "";
-	codecss += 'body {background: blue;}\n';
+	codecss += 'body {background: #eeeeee;}\n';
+	codecss += 'div {background: #f5100;}\n';
+	codecss += 'h1 {font-family: Arial; color: blue;}\n';
 	return codecss;
 }
 
