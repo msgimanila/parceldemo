@@ -25,10 +25,10 @@ const person = {
 
 // Display data from the object:
 document.getElementById("demo").innerHTML = person.fullName();
-let info="eographical <h2>Using JSS</h2> for CSS styling</a> <button></button>";
+let info="Javascript CSS  using css to js convertion<button>THIS IS THE BUTTON</button>";
 
 document.getElementById("demo").innerHTML = info;
-document.getElementByTagName("div").style = converted;
+document.getElementById("demo").style = converted;
 
  
 function js_thml(){
