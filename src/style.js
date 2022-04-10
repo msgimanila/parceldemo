@@ -1,6 +1,6 @@
 export function hi (name) {
     return `Hello, ${name}, You are using a module `;
-    function js_thml(){
+    export let x = function js_thml(){
 	let code = "";
 	code += '<h1>HTML To JavaScript</h1>\n';
 	code += '<ol>\n';
@@ -11,7 +11,5 @@ export function hi (name) {
 	code += '</ol>\n';
 	return code;
 }
-
-
-document.getElementById("js_html").innerHTML = js_thml();
+document.getElementById("js_html").innerHTML = x;
     }
