@@ -7,7 +7,7 @@ alert('The answer is ' + getTheAnswer());
 
 const converted = {
   ".main-wrapper": { flexDirection: "row", display: "flex", flex: 1 },
-  "#content": { flex: 1 },
+  "#js_html": { flex: 1, background: "blue" },
   ul: { padding: "20px 0", flex: 1 },
   li: { fontFamily: "'Lato'", color: "whitesmoke", lineHeight: "44px" },
   div: { background: "blue" }
