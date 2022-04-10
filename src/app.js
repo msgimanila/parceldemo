@@ -1,4 +1,4 @@
-import {styleMyCSS} from '/styles.js';
+require(styleMyCSS from '/styles.js');
  
 // Create an object:
 const person = {
