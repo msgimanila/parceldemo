@@ -1,4 +1,4 @@
-import answer from './modules/module1.js';
+
 import getTheAnswer from './modules/module2.js';
 var name = 'Radagast';
 var answer = 'thisisthe answer';
