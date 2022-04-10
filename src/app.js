@@ -1,6 +1,5 @@
 
-  import { styleMyCSS } from 'style.js';
-  document.body.innerHTML = styleMyCSS();
+
 
 // Create an object:
 const person = {
