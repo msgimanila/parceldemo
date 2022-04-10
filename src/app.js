@@ -27,7 +27,7 @@ document.getElementById("demo").innerHTML = person.fullName();
 let info="Javascript CSS  using css to js conversion<button>THIS IS THE BUTTON</button>";
 
 document.getElementById("demo").innerHTML = info;
-document.body.innerHTML = "<style>converted</style>";
+
 
  
 function js_thml(){
