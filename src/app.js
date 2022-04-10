@@ -1,4 +1,4 @@
-
+import { styleMyCSS } from 'style.js';
 // Create an object:
 const person = {
   firstName: "John",
