@@ -1,4 +1,4 @@
-function styleMyCSS(){
+export function styleMyCSS(){
   console.log('stylejss');
   alert('JSS');
 }
