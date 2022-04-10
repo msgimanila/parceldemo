@@ -9,7 +9,7 @@ export default {
       'font-size': '14px',
       'line-height': '1.42857143',
       color: '#333',
-      'background-color': '#fff'
+      'background-color': 'blue'
     },
     'article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary': {
       display: 'block'
