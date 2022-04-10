@@ -7,7 +7,6 @@ alert('The answer is ' + getTheAnswer());
 
 const converted = {
   ".main-wrapper": { flexDirection: "row", display: "flex", flex: 1 },
-  bg: "blue",
   ul: { padding: "20px 0", flex: 1 },
   li: { fontFamily: "'Lato'", color: "whitesmoke", lineHeight: "44px" },
   div: { background: "blue" }
@@ -28,7 +27,7 @@ document.getElementById("demo").innerHTML = person.fullName();
 let info="Javascript CSS  using css to js convertion<button>THIS IS THE BUTTON</button>";
 
 document.getElementById("demo").innerHTML = info;
-document.getElementById("demo").style.background = converted.bg;
+document.getElementById("demo").innerHTML = "<style>converted</style>";
 
  
 function js_thml(){
