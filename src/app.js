@@ -1,5 +1,5 @@
+import answer from './modules/module1.js';
 import getTheAnswer from './modules/module2.js';
-
 var name = 'Radagast';
 
 console.log(answer);
