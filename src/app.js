@@ -51,3 +51,6 @@ function js_thml(){
 document.getElementById("js_html").innerHTML = js_thml();
 document.getElementById("html-text").value = js_thml();
  
+fetch('https://api.nytimes.com/svc/books/v3/lists/best-sellers/history.json')
+  .then(response => response.json())
+  .then(data => console.log(data));
