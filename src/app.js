@@ -5,6 +5,13 @@ console.log(answer);
 
 alert('The answer is ' + getTheAnswer());
 
+const converted = {
+  ".main-wrapper": { flexDirection: "row", display: "flex", flex: 1 },
+  "#content": { flex: 1 },
+  ul: { padding: "20px 0", flex: 1 },
+  li: { fontFamily: "'Lato'", color: "whitesmoke", lineHeight: "44px" },
+  body: { background: "blue" }
+}
 
 // Create an object:
 const person = {
