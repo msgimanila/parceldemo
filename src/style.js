@@ -1,5 +1,5 @@
 export function style(){
-  console.log(stylejss);
+  console.log(,stylejss,);
   
 }
 
@@ -39,8 +39,9 @@ export const styles = {
   }
 }
 
-const {classes} = jss.createStyleSheet(styles).attach()
+const {classes} = jss.createStyleSheet(styles).attach();
 
 document.body.innerHTML = `
   <button class="${classes.button}">Button</button>
   <button class="${classes.ctaButton}">CTA Button</button>
+  }
