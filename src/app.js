@@ -10,7 +10,7 @@ const converted = {
   "#content": { flex: 1 },
   ul: { padding: "20px 0", flex: 1 },
   li: { fontFamily: "'Lato'", color: "whitesmoke", lineHeight: "44px" },
-  p: { background: "blue" }
+  div: { background: "blue" }
 }
 
 // Create an object:
@@ -28,7 +28,7 @@ document.getElementById("demo").innerHTML = person.fullName();
 let info="eographical <h2>Using JSS</h2> for CSS styling</a> <button></button>";
 
 document.getElementById("demo").innerHTML = info;
-document.getElementById("demo").style = converted;
+document.getElementByTagName("div").style = converted;
 
  
 function js_thml(){
